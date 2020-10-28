@@ -1,0 +1,28 @@
+{
+  "name": "dailyserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "nodemon src/index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MQ-380/dailyserver.git"
+  },
+  "author": "maoquan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MQ-380/dailyserver/issues"
+  },
+  "homepage": "https://github.com/MQ-380/dailyserver#readme",
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-route": "^3.2.0",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
